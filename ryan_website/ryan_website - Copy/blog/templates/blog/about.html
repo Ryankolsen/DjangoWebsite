@@ -1,0 +1,50 @@
+{% extends "blog/base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container">
+    <div class = "row">
+        <div class="col-sm"> </div>
+            <div class="col-13">
+
+
+                <div class="bg-gray row g-0 position-relative mt-5 ">
+                  <div class="bg-gray col-md-6 mb-md-5 p-md-1">
+                    <a href="https://docs.oracle.com/en/java/">
+                        <img class="mr-3 mt-4 ml-2" src="{% static 'blog/lang-sm.png' %}" alt="Different programming languages"</img></a>
+                    <a href="https://docs.python.org/3/">
+                        <img class="mr-3 mt-4 ml-2" src="{% static 'blog/python.png' %}" alt="Python Logo"></a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                        <img class="mr-3 mt-4 ml-2" src="{% static 'blog/computer_sm.jpg' %}" alt="cartoon of a guy at a computer working"></a>
+
+
+                  </div>
+                  <div class="bg-gray col-md-6 p-4 ps-md-0">
+                    <h5 class="mt-0 text-center">About Ryan</h5>
+                    <p>Hi, I'm Ryan Olsen. Thanks for checking out my site and some of my projects.<br> <br>
+
+                After achieving my second Bachelor's degree majoring in Management Information
+                Systems in 2013 I fell in love with software engineering. I started coding
+                with Java and Java FX. Next I expanded my languages to include Python, JavaScript,
+                JSON, HTML/CSS, SQL, C++ and anything else I can find. <br><br>
+
+                Recently I discovered Jupiter Notebook and Tableau for Data Science projects.
+                I was amazed by the sheer amount of data a Notebook can manage and organize. I am also
+                constantly impressed by the functionality of Tableau. <br> <br>
+
+                I genuinely love breaking larger applications down in to small, manageable
+                parts and working to find the most efficient and effective solution. I look
+                forward to finding a career where I can be challenged and where I can continue
+                to learn and grow as a software engineer.<br><br>
+
+                Please see below for some of my other projects and my contact info:<br><br>
+                <a href="https://github.com/Ryankolsen" class="stretched-link">Ryan's Git-Hub Page</a><br>
+                contact me: ryankolsen@gmail.com<br>
+
+                  </div>
+                </div>
+
+        <div class="col-sm"></div>
+</div>
+</div>
+{% endblock content %}

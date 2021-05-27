@@ -1,0 +1,19 @@
+{% extends "blog/base.html" %}
+{% load static %}
+{% block content %}
+<div class="content-section mt-5">
+    <h2 class="text-center">Good News! We Logged You Out!! <br>
+    Thanks for stopping by!
+    </h2>
+
+ <div class="view">
+            <img class="d-block w-100" src="{% static 'blog/goodbye.jpg' %}" alt="2 yr old and mom">
+            <div class="mask rgba-black-slight"></div>
+          </div>
+</div>
+
+    <a class="btn btn-primary mb-1 " href="{% url 'login' %}">Log In Again</a>
+
+
+{% endblock content %}
+

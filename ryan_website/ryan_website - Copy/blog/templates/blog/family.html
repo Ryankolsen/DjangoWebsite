@@ -1,0 +1,122 @@
+{% extends "blog/base.html" %}
+{% load static %}
+{% block content %}
+<x-sign class ="  text-center display-4 mt-4 mb-3" >Really cool people (and cats)!</x-sign>
+
+ <!--Carousel Wrapper-->
+    <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+        <li data-target="#carousel-example-2" data-slide-to="3"></li>
+        <li data-target="#carousel-example-2" data-slide-to="4"></li>
+        <li data-target="#carousel-example-2" data-slide-to="5"></li>
+        <li data-target="#carousel-example-2" data-slide-to="6"></li>
+        <li data-target="#carousel-example-2" data-slide-to="7"></li>
+
+      </ol>
+      <!--/.Indicators-->
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active mt-3">
+          <div class="view">
+            <img class="d-block w-100" src="{% static 'blog/fam1.jpg' %}" alt="Dad, Mom, Grandma, and 2 yr old">
+            <div class="mask rgba-black-light"></div>
+          </div>
+          <div class="carousel-caption">
+            <p>Some of my Family!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+          <div class="view">
+            <img class="d-block w-100" src="{% static 'blog/KristaEllie1.jpg' %}" alt="Adorable 2 year old being lifted up">
+            <div class="mask rgba-black-strong"></div>
+          </div>
+          <div class="carousel-caption">
+            <p>My Daughter and Wife!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+          <div class="view">
+            <img class="d-block w-100" src="{% static 'blog/fam4.jpg' %}" alt="2 yr old and mom">
+            <div class="mask rgba-black-slight"></div>
+          </div>
+          <div class="carousel-caption">
+            <p>My People!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+          <div class="view">
+            <img class="d-block w-100" src="{% static 'blog/ellie-glasses.jpg' %}" alt="Family on bed looking silly">
+            <div class="mask rgba-black-slight"></div>
+          </div>
+          <div class="carousel-caption">
+            <p>Poppy Glasses!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+          <div class="view">
+            <img class="d-block w-100" src="{% static 'blog/gwenny1.jpg' %}" alt="fluffy black cat">
+            <div class="mask rgba-black-slight"></div>
+          </div>
+          <div class="carousel-caption">
+            <p>Gwendolyn!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+          <div class="view">
+            <img class="d-block w-100" src="{% static 'blog/gwenny_pc.jpg' %}" alt="grandma, mom, dad, and daughter">
+            <div class="mask rgba-black-slight"></div>
+          </div>
+          <div class="carousel-caption">
+            <p>More Gwendolyn!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+          <div class="view">
+            <img class="d-block w-100" src="{% static 'blog/ellie-2.jpg' %}" alt="2 yr old posing cool in a picture">
+            <div class="mask rgba-black-slight"></div>
+          </div>
+          <div class="carousel-caption">
+            <p>Suerhero Pose!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+          <div class="view">
+            <img class="d-block w-100" src="{% static 'blog/lyra2.jpg' %}" alt="Black and white cat">
+            <div class="mask rgba-black-slight"></div>
+          </div>
+          <div class="carousel-caption">
+            <p>Lyra!</p>
+          </div>
+        </div>
+      </div>
+
+      </div>
+      <!--/.Slides-->
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+
+  </div>
+
+
+{% endblock content %}
